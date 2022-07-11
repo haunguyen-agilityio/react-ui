@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Avatar It should match DOM Snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiAvatar-root MuiAvatar-circular css-1cmlm5z-MuiAvatar-root"
+    >
+      <img
+        alt="Jame"
+        class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+        src="./src/image.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
