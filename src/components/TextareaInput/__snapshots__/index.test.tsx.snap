@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextareaInput It should match DOM Snapshot when error 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root css-16bhqul-MuiFormControl-root-MuiTextField-root"
+    >
+      <div
+        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-formControl MuiInputBase-multiline css-rjyls5-MuiInputBase-root-MuiOutlinedInput-root"
+      >
+        <textarea
+          aria-invalid="true"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          id=":r2:"
+          name="test-textarea-name"
+          placeholder="Enter something"
+          rows="5"
+          style="height: 0px; overflow: hidden;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </textarea>
+        <textarea
+          aria-hidden="true"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          readonly=""
+          style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+          tabindex="-1"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-hdw1oc"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <p
+      class="MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-19jrxw0-MuiFormHelperText-root"
+    >
+      Required
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextareaInput It should match DOM Snapshot when not full width 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root css-4hrhpy-MuiFormControl-root-MuiTextField-root"
+    >
+      <div
+        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-multiline css-rjyls5-MuiInputBase-root-MuiOutlinedInput-root"
+      >
+        <textarea
+          aria-invalid="false"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          id=":r3:"
+          name="test-textarea-name"
+          placeholder="Enter something"
+          rows="5"
+          style="height: 0px; overflow: hidden;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </textarea>
+        <textarea
+          aria-hidden="true"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          readonly=""
+          style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+          tabindex="-1"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-hdw1oc"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextareaInput It should match DOM Snapshot when value is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root css-4hrhpy-MuiFormControl-root-MuiTextField-root"
+    >
+      <div
+        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-multiline css-rjyls5-MuiInputBase-root-MuiOutlinedInput-root"
+      >
+        <textarea
+          aria-invalid="false"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          id=":r1:"
+          name="test-textarea-name"
+          placeholder="Enter something"
+          rows="5"
+          style="height: 0px; overflow: hidden;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </textarea>
+        <textarea
+          aria-hidden="true"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          readonly=""
+          style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+          tabindex="-1"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-hdw1oc"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextareaInput It should match DOM Snapshot when value is not empty 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root css-4hrhpy-MuiFormControl-root-MuiTextField-root"
+    >
+      <div
+        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-multiline css-rjyls5-MuiInputBase-root-MuiOutlinedInput-root"
+      >
+        <textarea
+          aria-invalid="false"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          id=":r0:"
+          name="test-textarea-name"
+          placeholder="Enter something"
+          rows="5"
+          style="height: 0px; overflow: hidden;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </textarea>
+        <textarea
+          aria-hidden="true"
+          class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+          readonly=""
+          style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+          tabindex="-1"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-hdw1oc"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
