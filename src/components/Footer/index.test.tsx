@@ -3,7 +3,7 @@ import { screen, render } from '@testing-library/react'
 import * as renderer from 'react-test-renderer'
 
 // Components
-import Footer from '@components/Footer/index'
+import Footer from '../Footer'
 
 describe('Footer', () => {
   const defaultProps = {}

@@ -3,10 +3,10 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { ThemeProvider } from '@mui/material/styles'
 
 // components
-import Checkbox from '@components/Checkbox'
+import Checkbox from '../Checkbox'
 
 // themes
-import theme from '@themes'
+import theme from '../../themes'
 
 export default {
   component: Checkbox,
@@ -45,3 +45,5 @@ Error.args = {
   onChange: () => {},
   isError: true,
 }
+
+export {}

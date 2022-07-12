@@ -1,5 +1,5 @@
 // component
-import Avatar, { AvatarProp } from '@components/Avatar'
+import Avatar, { AvatarProp } from '../Avatar'
 
 // lib
 import { fireEvent, render, screen } from '@testing-library/react'

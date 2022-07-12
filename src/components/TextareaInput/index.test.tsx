@@ -3,7 +3,7 @@ import { fireEvent, render } from '@testing-library/react'
 import { ThemeProvider } from '@mui/material/styles'
 
 // Themes
-import theme from '@themes/index'
+import theme from '../../themes'
 
 // Components
 import TextareaInput, { ITextareaInputProps } from '.'

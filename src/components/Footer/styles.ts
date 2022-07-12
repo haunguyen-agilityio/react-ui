@@ -3,7 +3,7 @@ import { styled } from '@mui/system'
 import ListItemButton from '@mui/material/ListItemButton'
 
 // Themes
-import theme from '@themes'
+import theme from '../../themes'
 
 export const StyledListItemButton = styled(ListItemButton)({
   textAlign: 'center',

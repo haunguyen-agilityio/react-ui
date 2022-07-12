@@ -4,10 +4,10 @@ import * as renderer from 'react-test-renderer'
 import { ThemeProvider } from '@mui/material/styles'
 
 // components
-import Button from '@components/Button'
+import Button from '../Button'
 
 // theme
-import theme from '@themes'
+import theme from '../../themes'
 
 describe('Button component', () => {
   const onClick = jest.fn()
