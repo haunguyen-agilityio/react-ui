@@ -1,8 +1,8 @@
-// Libraries
+//Libraries
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 // Components
-import Footer from '@components/Footer/index'
+import Footer from '../Footer'
 
 export default {
   title: 'Components/Footer',

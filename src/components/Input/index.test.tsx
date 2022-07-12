@@ -3,7 +3,7 @@ import { screen, render } from '@testing-library/react'
 import * as renderer from 'react-test-renderer'
 
 // Components
-import Input from '@components/Input/index'
+import Input from '../Input'
 
 describe('Input', () => {
   const defaultProps = {

@@ -3,10 +3,10 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { ThemeProvider } from '@mui/material/styles'
 
 // components
-import Button from '@components/Button'
+import Button from '../Button'
 
 // theme
-import theme from '@themes'
+import theme from '../../themes'
 
 export default {
   component: Button,

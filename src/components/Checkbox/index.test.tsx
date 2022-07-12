@@ -4,10 +4,10 @@ import * as renderer from 'react-test-renderer'
 import { ThemeProvider } from '@mui/material/styles'
 
 // theme
-import theme from '@themes'
+import theme from '../../themes'
 
 // components
-import Checkbox from '@components/Checkbox'
+import Checkbox from '../Checkbox'
 
 describe('Check box component', () => {
   const onChange = jest.fn()

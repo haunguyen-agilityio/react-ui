@@ -5,7 +5,7 @@ import { styled } from '@mui/system'
 import { Button } from '@mui/material'
 
 // theme
-import typography from '@themes/typography'
+import typography from '../../themes/typography'
 
 const StyledButton = styled(Button)(({ theme }) => ({
   margin: theme.spacing(),

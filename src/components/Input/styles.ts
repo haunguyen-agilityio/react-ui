@@ -4,8 +4,8 @@ import TextField from '@mui/material/TextField'
 import FormHelperText from '@mui/material/FormHelperText'
 
 // Themes
-import theme from '@themes'
-import typography from '@themes/typography'
+import theme from '../../themes'
+import typography from '../../themes/typography'
 
 export const InputWrapper = styled('div')({
   padding: theme.spacing(2),

@@ -6,17 +6,9 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
   ],
-  webpackFinal: async (config, { configType }) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@components': path.resolve(__dirname, '../src/components'),
-      '@themes': path.resolve(__dirname, '../src/themes'),
-    }
-    return config
-  },
-  staticDirs: ['../public'],
-  framework: '@storybook/react',
-  core: {
-    builder: '@storybook/builder-webpack5',
-  },
+
+  // framework: '@storybook/react',
+  // core: {
+  //   builder: '@storybook/builder-webpack5',
+  // },
 }

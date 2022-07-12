@@ -5,7 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary'
 import { MenuItem, MenuList, Link } from '@mui/material'
 
 // Themes
-import theme from '@themes'
+import theme from '../../themes'
 
 export const DropdownStyles = styled('div')({
   display: 'flex',

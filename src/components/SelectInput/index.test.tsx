@@ -3,10 +3,9 @@ import renderer from 'react-test-renderer'
 import { fireEvent, render } from '@testing-library/react'
 import { ThemeProvider } from '@mui/material/styles'
 import { MenuItem, Typography, Box } from '@mui/material'
-import Image from 'next/image'
 
 // Themes
-import theme from '@themes/index'
+import theme from '../../themes'
 
 // Components
 import SelectInput, { ISelectInputProps, ISelectOptionProps } from '.'
@@ -68,7 +67,7 @@ const renderAssetOptions = mockAssetOptions.map(({ label, value, source }: ISele
   <MenuItem key={value} value={value}>
     {source && (
       <Box className='asset-icon'>
-        <Image width={30} height={30} alt={label} src={source} />
+        {/* <Image width={30} height={30} alt={label} src={source} /> */}
       </Box>
     )}
     <Typography className='asset-name'>{label}</Typography>
@@ -152,7 +151,9 @@ describe('SelectInput', () => {
 
   test('It triggers handleOnChange function when select an option', () => {
     const { getByDisplayValue } = render(<ThemedComponent {...componentProps} value='option1' />)
-    fireEvent.change(getByDisplayValue('option1'), { target: { value: 'option2' } })
+    fireEvent.change(getByDisplayValue('option1'), {
+      target: { value: 'option2' },
+    })
     expect(componentProps.onChange).toHaveBeenCalledTimes(1)
   })
 })

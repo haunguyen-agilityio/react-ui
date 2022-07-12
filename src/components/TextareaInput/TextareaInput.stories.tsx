@@ -5,7 +5,7 @@ import { Box } from '@mui/material'
 import { ThemeProvider } from '@mui/material/styles'
 
 // Themes
-import theme from '@themes/index'
+import theme from '../../themes'
 
 // Components
 import TextareaInput from '.'
@@ -98,3 +98,4 @@ export const HasText = () => (
     onChange={() => {}}
   />
 )
+export {}

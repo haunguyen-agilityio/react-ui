@@ -1,12 +1,11 @@
 // Libraries
-import Image from 'next/image'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { Box, MenuItem, Typography } from '@mui/material'
 import { ThemeProvider } from '@mui/material/styles'
 
 // Themes
-import theme from '@themes/index'
+import theme from '../../themes'
 
 // Components
 import SelectInput, { ISelectOptionProps } from '.'
@@ -62,7 +61,7 @@ const renderAssetOptions = mockAssetOptions.map(({ label, value, source }: ISele
   <MenuItem key={value} value={value}>
     {source && (
       <Box className='asset-icon'>
-        <Image width={30} height={30} alt={label} src={source} />
+        {/* <Image width={30} height={30} alt={label} src={source} /> */}
       </Box>
     )}
     <Typography className='asset-name'>{label}</Typography>

@@ -1,8 +1,8 @@
-// Libraries
+//Libraries
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 // Components
-import Input from '@components/Input/index'
+import Input from '../Input'
 
 export default {
   title: 'Components/Input',

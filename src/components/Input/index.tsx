@@ -6,7 +6,7 @@ import { StyledTextField, InputWrapper } from './styles'
 import { StyledFormHelperText } from './styles'
 
 // Themes
-import theme from '@themes'
+import theme from '../../themes'
 
 enum TypeCategory {
   Number = 'number',

@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles'
 import { FormHelperText, FormLabel, Select, SelectProps } from '@mui/material'
 
 // Themes
-import theme from '@themes'
+import theme from '../../themes'
 
 interface IStyledSelect extends SelectProps {
   selectVariant: 'normal' | 'asset'
@@ -68,8 +68,8 @@ const StyledSelect = styled(
         display: 'flex',
         columnGap: theme.spacing(1),
         alignItems: 'center',
-        paddingTop: theme.spacing(size == 'small' ? 0.75 : 1.3),
-        paddingBottom: theme.spacing(size == 'small' ? 0.75 : 1.3),
+        paddingTop: theme.spacing(size === 'small' ? 0.75 : 1.3),
+        paddingBottom: theme.spacing(size === 'small' ? 0.75 : 1.3),
         '> .asset-icon': {
           height: '20px',
           width: '20px',

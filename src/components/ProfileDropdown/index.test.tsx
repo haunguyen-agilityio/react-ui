@@ -1,6 +1,6 @@
 import { screen, render } from '@testing-library/react'
 import * as renderer from 'react-test-renderer'
-import ProfileDropdown from '@components/ProfileDropdown'
+import ProfileDropdown from '../ProfileDropdown'
 
 describe('Dropdown', () => {
   it('Component [ProfileDropdown] matches DOM Snapshot', () => {

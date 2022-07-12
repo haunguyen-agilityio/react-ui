@@ -12,10 +12,10 @@ import {
   StyledMenuItem,
   StyledMenuList,
   StyledLink,
-} from '@components/ProfileDropdown/styles'
+} from '../ProfileDropdown/styles'
 
 // Themes
-import theme from '@themes'
+import theme from '../../themes'
 
 interface IProfileDropdownProps {
   isDisableGutters: boolean
