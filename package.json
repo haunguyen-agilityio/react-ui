@@ -1,5 +1,5 @@
 {
-  "name": "react-components",
+  "name": "react-ui",
   "version": "0.1.0",
   "private": true,
   "main": "dist/cjs/index",
@@ -23,12 +23,14 @@
     "build-storybook": "build-storybook",
     "test:updateSnapshots": "jest -u"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -79,10 +81,8 @@
     "@storybook/manager-webpack5": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^28.1.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
@@ -109,7 +109,8 @@
     "sb": "^6.5.9",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.8.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^28.1.4"
   }
-  
 }
