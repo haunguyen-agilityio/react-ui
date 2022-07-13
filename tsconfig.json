@@ -5,9 +5,8 @@
     "module": "esnext",
     "jsx": "react-jsx",
     "declaration": true,
-    "declarationDir": "dist",
+    "declarationDir": "build",
     "sourceMap": true,
-    "outDir": "dist",
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
@@ -21,6 +20,7 @@
   "exclude": [
     "node_modules",
     "dist",
+    "build",
     "src/**/*.stories.tsx",
     "src/**/*.test.tsx"
   ]
